@@ -92,12 +92,12 @@
         color: fuchsia;
     }
     .component {
-        font-size: 2em;
+
         background: pink;
         border-radius: 30px;
     }
     .num-input {
-        font-size: 1em;
+
     }
     input::-webkit-outer-spin-button,
     input::-webkit-inner-spin-button {
@@ -105,6 +105,7 @@
         -webkit-appearance: none;
         margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
         font-size: inherit;
+        width: 80px;
     }
 
     input[type=number] {
@@ -122,13 +123,13 @@
         display: inline-block;
         padding: 3px 6px;
         text-align: right;
-        width: 150px;
-        vertical-align: top;
+        width: 80px;
+        vertical-align: center;
         margin-right: 2px;
     }
     .result {
         padding: 3px 6px;
         color: fuchsia;
-        font-size: 3em;
+        font-size: 2em;
     }
 </style>
